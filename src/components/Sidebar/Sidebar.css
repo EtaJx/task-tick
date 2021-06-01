@@ -1,3 +1,21 @@
-.siderbar-container{
+.siderbar-menu{
+  display: flex;
+  box-sizing: border-box;
   width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.siderbar-menu-link{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: #999;
+  transition: ease-in-out all .3s;
+}
+.siderbar-menu-link:hover{
+  color: #666;
+  background-color: #e3e3e3;
 }
